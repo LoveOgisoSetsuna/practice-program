@@ -335,6 +335,8 @@ def show_gameover_info(screen):
                                 elif event.type == KEYDOWN:
                                     if event.key == K_ESCAPE or event.key == K_q:  # 终止程序
                                         terminate()  # 终止程序
+				else:
+					main()
                                     
                 else:
                     return #结束此函数, 重新开始游戏
